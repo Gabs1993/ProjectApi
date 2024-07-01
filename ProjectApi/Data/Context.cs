@@ -10,7 +10,7 @@ namespace ProjectApi.Data
 
         }
 
-        public DbSet<Jogador> Jogadores { get; set; }
+        public virtual DbSet<Jogador> Jogadores { get; set; }
 
         public DbSet<Time> Times { get; set; }
 
